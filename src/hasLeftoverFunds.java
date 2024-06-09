@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class hasLeftoverFunds {
     public static Boolean hasLeftOverFund(int burritoCost){
         int budget = 100;
@@ -7,7 +9,7 @@ public class hasLeftoverFunds {
             numBurritos ++;
             budget -= burritoCost;
         }
-        
+        System.out.println();
 
     }
 }
