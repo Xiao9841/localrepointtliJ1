@@ -5,6 +5,8 @@ public class Main {
         for(int i = 1; i <= lastOrderNumber; i++){
             if(i % 9 == 0){
                 numDivisibleOrders++;
+
+                blah
             }
 //        int i = 1;
 //        while(i <= lastOrderNumber){
